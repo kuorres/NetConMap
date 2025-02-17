@@ -1,10 +1,9 @@
 # NetConMap  
   
-NetConMap is a network connection monitoring tool that provides real-time visualization of network connections and associated processes on your system.  
+NetConMap is a network connection monitoring tool that provides real-time visualization of network connections on your system.  
   
 ## Future Features
   
-- Real-time monitoring of network connections  
 - Process-to-connection mapping  
 - Interactive connection visualization  
 - Detailed process information  
@@ -12,4 +11,9 @@ NetConMap is a network connection monitoring tool that provides real-time visual
 
   
 ## Installation
-0. Working In Progress
+0.Working In Progress
+
+## Test
+-- pip install psutil tabulate scapy pyshark cryptography PyQt6 netifaces matplotlib PyQt6-Charts
+-- export SSLKEYLOGFILE=/path/to/keylog.txt
+-- python NetCon.py
